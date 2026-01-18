@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+/* Escanear archivos fuente para Tailwind */
+@source '../**/*.{js,ts,jsx,tsx,html}';
+
+/* Configuración de Tailwind */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
